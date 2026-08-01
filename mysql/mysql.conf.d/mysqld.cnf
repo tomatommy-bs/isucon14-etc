@@ -83,6 +83,6 @@ innodb_flush_log_at_trx_commit = 2
 sync_binlog = 0
 
 # ISUCON measurement: slow query log (persisted, was previously only SET GLOBAL and lost on restart)
-slow_query_log = 1
+slow_query_log = 0
 slow_query_log_file = /var/log/mysql/mysql-slow.log
 long_query_time = 0
